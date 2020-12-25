@@ -26,6 +26,6 @@
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
-    "prism-theme-bright-npm": "^1.0.1"
+    "prism-theme-bright-npm": "^1.0.0"
   }
 }
