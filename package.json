@@ -1,0 +1,31 @@
+{
+  "name": "emkel-blog",
+  "version": "5.0.2",
+  "description": "Emmett Kelleher's blog.",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "author": {
+    "name": "Emmett Kelleher",
+    "url": "https://emkel.netlify.app/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noodlesatgithub/my-blog/issues"
+  },
+  "homepage": "https://github.com/noodlesatgithub/my-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "luxon": "^1.21.3",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.2.5"
+  },
+  "dependencies": {
+    "prism-theme-bright-npm": "^1.0.1"
+  }
+}

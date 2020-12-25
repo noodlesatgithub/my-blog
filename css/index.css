@@ -1,0 +1,128 @@
+.postlist {
+  list-style: none
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 67.25px;
+}
+
+.ulnav > li {
+  list-style: none;
+  display: inline-flex;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+header {
+  user-select: none;
+}
+
+.ulnav {
+  align-self: center;
+  flex: revert;
+}
+
+@media only screen and (max-width:960px) {
+  header {
+    margin: 3vh 0 6vh;
+    grid-column: 1/10;
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap
+  }
+  .nav-top {
+    margin-top: 5px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif Pro", serif;
+}
+
+a {
+  font-family: "Inconsolata", monospace;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p,
+time {
+  font-family: "Inter", sans-serif;
+}
+
+.skip-link {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+main {
+  padding: 2rem;
+  margin: 0px auto;
+  max-width: 70rem;
+}
+
+.nav-top {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2.175rem;
+}  
+
+.nav {
+  padding: 0;
+  list-style: none;
+  float: left;
+  margin-left: 1em;
+}
+
+.blog-buttons {
+  position: absolute;
+  right: 2.175rem;
+  top: 2.175rem;
+  transform: none;
+}
+
+.header-button {
+  position: absolute;
+  left: 2.175rem;
+  top: 2.175rem;
+  transform: none;
+}    
+
+.home {
+  padding: 0 1rem;
+  float: left;
+  margin: 1rem 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}

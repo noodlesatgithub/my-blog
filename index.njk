@@ -1,0 +1,10 @@
+---
+layout: layouts/home.njk
+---
+
+<h1>Welcome to the blog of <em>Emmett Kelleher</em>.</h1>
+{% set maxPosts = collections.posts.length | min(3) %}
+<h2>Recent Posts.</h2>
+
+{% set postslist = collections.posts | head(-3) %}
+{% include "postslist.njk" %}
